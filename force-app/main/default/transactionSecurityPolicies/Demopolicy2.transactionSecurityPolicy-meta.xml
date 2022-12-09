@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>true</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>false</sendEmail>
+            <user>david.vickers@finscabindemos.com</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>true</active>
+    <apexClass>CabinTransactionalSec2</apexClass>
+    <blockMessage>No VIPs are allowed in reports.  Please add a filter of VIP = False to the report to see all other contacts. If you require access to VIP contacts, please see your manager or contact your Salesforce Admin.</blockMessage>
+    <developerName>Demopolicy2</developerName>
+    <eventName>ReportEvent</eventName>
+    <masterLabel>Demo policy 2</masterLabel>
+    <type>CustomApexPolicy</type>
+</TransactionSecurityPolicy>
