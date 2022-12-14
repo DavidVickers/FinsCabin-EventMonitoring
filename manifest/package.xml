@@ -9,6 +9,10 @@
 		<name>CustomObject</name>
 	</types>
 	<types>
+		<members>public_reports/my_Contacts_Accounts_Report_ulq</members>
+		<name>Report</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>TransactionSecurityPolicy</name>
 	</types>
