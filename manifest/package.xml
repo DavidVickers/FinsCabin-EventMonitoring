@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>CabinTransactionalSec2</members>
+		<members>FinsCabinData</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -11,6 +12,10 @@
 	<types>
 		<members>public_reports/my_Contacts_Accounts_Report_ulq</members>
 		<name>Report</name>
+	</types>
+	<types>
+		<members>FinsCabinEventMonitoringData</members>
+		<name>StaticResource</name>
 	</types>
 	<types>
 		<members>*</members>
