@@ -2,7 +2,10 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>CabinTransactionalSec2</members>
+		<members>CreateDataMock</members>
+		<members>CreateDataTest</members>
 		<members>FinsCabinData</members>
+		<members>TestTransactionalSecurity</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -10,7 +13,7 @@
 		<name>CustomObject</name>
 	</types>
 	<types>
-		<members>public_reports/my_Contacts_Accounts_Report_ulq</members>
+		<members>EventMonitoringDemoReports/my_Contacts_Accounts_Report_ulq</members>
 		<name>Report</name>
 	</types>
 	<types>
